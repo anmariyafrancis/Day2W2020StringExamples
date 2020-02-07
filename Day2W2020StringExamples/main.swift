@@ -44,5 +44,11 @@ print(k.isEmpty)
 print(name.lowercased())
 print(name.uppercased())
 
-print(name.contains)
+print(name.first)
+print(name.last)
+
+print(name.dropLast())
+print(name.randomElement())
+
+
 
