@@ -50,5 +50,52 @@ print(name.last)
 print(name.dropLast())
 print(name.randomElement())
 
+var a:String?
+a="Hello"
+//a=nil
 
+print(a ?? "no value")
 
+if let x = a
+{
+    print(x.uppercased())
+}
+else
+{
+    print("a is nil")
+}
+//print(a!.lowercased())
+
+for i in 1...10
+{
+    print(i)
+}
+for _ in 1...10
+{
+    print("anmariya")
+}
+
+for i in 1..<10
+{
+    print(i)
+}
+//to print odd
+for i in stride(from: 1, to: 10, by: 2)
+{
+    print(i)
+}
+//to print even
+for i in stride(from: 2, to: 10, by: 2)
+{
+    print(i)
+}
+//to print even numbers in reverse order
+for i in stride(from: 10, to: 1, by: -2)
+{
+    print(i)
+}
+//to print numbers in reverse order
+for i in stride(from: 10, through: 1, by: -1)
+{
+    print(i)
+}
