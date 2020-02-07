@@ -133,3 +133,12 @@ print(type(of:x))
 var z=Array<Double>()
 z.append(100.0)
 print(z)
+
+print(country.capacity)
+country.insert("TEST", at: 1)
+print(country)
+
+var y:[Int]
+y=[Int]()
+y.append(100)
+print(y)
