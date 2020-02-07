@@ -99,3 +99,37 @@ for i in stride(from: 10, through: 1, by: -1)
 {
     print(i)
 }
+
+//ARRAY
+
+var country=["India","Canada","USA","Australia","UK"]
+print(country)
+
+for c in country
+{
+    print(c)
+}
+
+print(country[4])
+
+country.append("Germany")
+print(country)
+
+country += ["c1","c2"]
+print(country)
+
+var c1=country[2...4]
+print(c1)
+
+c1[2]="hello"
+print(c1)
+print(country)
+
+var x=Array(repeating: 0, count: 10)
+print(x)
+//var x=Array<Int>(repeating: 0, count: 10)
+print(type(of:x))
+
+var z=Array<Double>()
+z.append(100.0)
+print(z)
